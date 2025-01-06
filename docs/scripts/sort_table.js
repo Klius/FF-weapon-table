@@ -22,28 +22,27 @@ function sortTable(n) {
       /* Check if the two rows should switch place,
       based on the direction, asc or desc: */
       if (dir == "asc") {
-        if (isNaN(x.innerHTML) && isNaN(y.innerHTML)) {
+        if (isNumeric(x.innerHTML) && isNumeric(y.innerHTML)) {
+          if (Number(x.innerHTML) > Number(y.innerHTML)) {
+            shouldSwitch = true;
+            break;
+          }
+        } else {
           if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
             // If so, mark as a switch and break the loop:
             shouldSwitch = true;
             break;
           }
-
-        } else {
-          if (Number(x.innerHTML) > Number(y.innerHTML)) {
-            shouldSwitch = true;
-            break;
-          }
         }
       } else if (dir == "desc") {
-        if (isNaN(x.innerHTML) && isNaN(y.innerHTML)) {
-          if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
-            // If so, mark as a switch and break the loop:
+        if (isNumeric(x.innerHTML) && isNumeric(y.innerHTML)) {
+          if (Number(x.innerHTML) < Number(y.innerHTML)) {
             shouldSwitch = true;
             break;
           }
         } else {
-          if (Number(x.innerHTML) < Number(y.innerHTML)) {
+          if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+            // If so, mark as a switch and break the loop:
             shouldSwitch = true;
             break;
           }
@@ -75,4 +74,8 @@ function sortTable(n) {
       header[i].removeAttribute("aria-sort");
     }
   }
+}
+
+var isNumeric = function (num) {
+  return (typeof (num) === 'number' || typeof (num) === "string" && num.trim() !== '') && !isNaN(num);
 }

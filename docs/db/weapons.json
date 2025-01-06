@@ -311,7 +311,7 @@
         },
         {
             "name": "Long(Sword)",
-            "cost": "1,5",
+            "cost": "1500",
             "type": null,
             "damage": "20",
             "hit rate": "10",
@@ -410,7 +410,7 @@
         },
         {
             "name": "Silver(Axe)",
-            "cost": "4,5",
+            "cost": "4500",
             "type": null,
             "damage": "25",
             "hit rate": "10",
@@ -432,7 +432,7 @@
         },
         {
             "name": "Silver(Hammer)",
-            "cost": "2,5",
+            "cost": "2500",
             "type": null,
             "damage": "12",
             "hit rate": "5",
@@ -443,7 +443,7 @@
         },
         {
             "name": "Silver(Sword)",
-            "cost": "4",
+            "cost": 4000,
             "type": null,
             "damage": "23",
             "hit rate": "15",
@@ -454,7 +454,7 @@
         },
         {
             "name": "Small(Dagger)",
-            "cost": "5",
+            "cost": 5,
             "type": null,
             "damage": "5",
             "hit rate": "10",
