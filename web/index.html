@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>FF1 Weaponry</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/ff1.css'>
+    <script src='scripts/table-gen.js'></script>
+    <script src='scripts/sort_table.js'></script>
+</head>
+
+<body>
+    <div class="filter-bar">
+        <input type="text" id="filter_input" onkeyup="filter_table()" placeholder="Search for names..">
+    </div>
+    <div class="main">
+        <table class="sortable">
+            <thead id="table-header"></thead>
+            <tbody id="table-body"></tbody>
+        </table>
+    </div>
+</body>
+
+</html>

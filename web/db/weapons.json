@@ -1,0 +1,557 @@
+{
+    "fields": [
+        "name",
+        "cost",
+        "damage",
+        "hit rate",
+        "found",
+        "store",
+        "spell"
+    ],
+    "rows": [
+        {
+            "name": "bane",
+            "cost": 0,
+            "type": "sword",
+            "damage": 22,
+            "hit rate": 20,
+            "found": [
+                "Sky Castle L1"
+            ],
+            "store": null,
+            "spell": "BANE",
+            "equiped by": [
+                "knight",
+                "ninja",
+                "red wizard"
+            ]
+        },
+        {
+            "name": "CatClaw",
+            "cost": 65000,
+            "type": "dagger",
+            "damage": 22,
+            "hit rate": 35,
+            "found": null,
+            "store": [
+                "Gaia"
+            ],
+            "spell": null,
+            "equiped by": [
+                "knight",
+                "ninja",
+                "red wizard",
+                "black wizard"
+            ]
+        },
+        {
+            "name": "coral",
+            "cost": 0,
+            "type": "sword",
+            "damage": 19,
+            "hit rate": 15,
+            "found": [
+                "Earth Cave"
+            ],
+            "store": null,
+            "spell": null,
+            "equiped by": [
+                "fighter",
+                "knight",
+                "thief",
+                "ninja",
+                "red mage",
+                "red wizard"
+            ]
+        },
+        {
+            "name": "defense",
+            "cost": 0,
+            "type": "sword",
+            "damage": 30,
+            "hit rate": 35,
+            "found": [
+                "Waterfall"
+            ],
+            "store": null,
+            "spell": "RUSE",
+            "equiped by": [
+                "knight",
+                "ninja",
+                "red wizard"
+            ]
+        },
+        {
+            "name": "Dragon",
+            "cost": 0,
+            "type": "sword",
+            "damage": 19,
+            "hit rate": 15,
+            "found": [
+                "Dwarf Cave"
+            ],
+            "store": null,
+            "spell": null,
+            "equiped by": [
+                "fighter",
+                "knight",
+                "thief",
+                "ninja",
+                "red mage",
+                "red wizard"
+            ]
+        },
+        {
+            "name": "Falchon",
+            "cost": 450,
+            "type": "sword",
+            "damage": 15,
+            "hit rate": 10,
+            "found": [
+                "Northwest Castle"
+            ],
+            "store": [
+                "Melmond"
+            ],
+            "spell": null,
+            "equiped by": [
+                "fighter",
+                "knight",
+                "thief",
+                "ninja",
+                "red mage",
+                "red wizard"
+            ]
+        },
+        {
+            "name": "Flame",
+            "cost": 0,
+            "type": "sword",
+            "damage": 19,
+            "hit rate": 15,
+            "found": [
+                "Earth Cave"
+            ],
+            "store": null,
+            "spell": null,
+            "equiped by": [
+                "fighter",
+                "knight",
+                "ninja",
+                "red mage",
+                "red wizard"
+            ]
+        },
+        {
+            "name": "giant",
+            "cost": 0,
+            "type": "sword",
+            "damage": 21,
+            "hit rate": 20,
+            "found": [
+                "Gurgu Volcano L2"
+            ],
+            "store": null,
+            "spell": null,
+            "equiped by": [
+                "fighter",
+                "knight",
+                "ninja",
+                "red mage",
+                "red wizard"
+            ]
+        },
+        {
+            "name": "Great",
+            "cost": 0,
+            "type": "axe",
+            "damage": 22,
+            "hit rate": 5,
+            "found": [
+                "Earth Cave"
+            ],
+            "store": null,
+            "spell": null,
+            "equiped by": [
+                "fighter",
+                "knight",
+                "thief",
+                "ninja",
+                "red mage",
+                "red wizard"
+            ]
+        },
+        {
+            "name": "Hand",
+            "cost": 550,
+            "type": "Axe",
+            "damage": 16,
+            "hit rate": 5,
+            "found": null,
+            "store": [
+                "Pravoka"
+            ],
+            "spell": null,
+            "equiped by": [
+                "fighter",
+                "knight",
+                "ninja"
+            ]
+        },
+        {
+            "name": "Heal",
+            "cost": 0,
+            "type": "staff",
+            "damage": 6,
+            "hit rate": 0,
+            "found": [
+                "Castle of Ordeal L3"
+            ],
+            "store": null,
+            "spell": "HEAL",
+            "equiped by": [
+                "ninja",
+                "White mage",
+                "White wizard"
+            ]
+        },
+        {
+            "name": "Ice",
+            "cost": 0,
+            "type": "sword",
+            "damage": 29,
+            "hit rate": 25,
+            "found": [
+                "Castle of Ordeals L3",
+                "Gurgu Volcano L4B"
+            ],
+            "store": null,
+            "spell": null,
+            "equiped by": [
+                "fighter",
+                "knight",
+                "ninja",
+                "red mage",
+                "red wizard"
+            ]
+        },
+        {
+            "name": "Iron",
+            "cost": 10,
+            "type": "hammer",
+            "damage": 9,
+            "hit rate": 0,
+            "found": null,
+            "store": [
+                "Corneria",
+                "Pravoka"
+            ],
+            "spell": null,
+            "equiped by": [
+                "fighter",
+                "knight",
+                "thief",
+                "ninja",
+                "red mage",
+                "red wizard"
+            ]
+        },
+        {
+            "name": "Iron(Nunchuck)",
+            "cost": "200",
+            "type": null,
+            "damage": "16",
+            "hit rate": "0",
+            "found": null,
+            "store": null,
+            "spell": null,
+            "equiped by": "BB, Ni, Ma"
+        },
+        {
+            "name": "Iron(Staff)",
+            "cost": "200",
+            "type": null,
+            "damage": "14",
+            "hit rate": "0",
+            "found": null,
+            "store": null,
+            "spell": null,
+            "equiped by": "Fi, BB, Kn, Ni, Ma"
+        },
+        {
+            "name": "Katana",
+            "cost": "0",
+            "type": null,
+            "damage": "33",
+            "hit rate": "35",
+            "found": null,
+            "store": null,
+            "spell": null,
+            "equiped by": "Ni"
+        },
+        {
+            "name": "Large(Dagger)",
+            "cost": "175",
+            "type": null,
+            "damage": "7",
+            "hit rate": "10",
+            "found": null,
+            "store": null,
+            "spell": null,
+            "equiped by": "Fi, Th, RM, BM, Kn, Ni, RW, BW"
+        },
+        {
+            "name": "Light(Axe)",
+            "cost": "0",
+            "type": null,
+            "damage": "28",
+            "hit rate": "15",
+            "found": null,
+            "store": null,
+            "spell": "HRM2",
+            "equiped by": "Fi, Kn, Ni"
+        },
+        {
+            "name": "Long(Sword)",
+            "cost": "1,5",
+            "type": null,
+            "damage": "20",
+            "hit rate": "10",
+            "found": null,
+            "store": null,
+            "spell": null,
+            "equiped by": "Fi, RM, Kn, Ni, RW"
+        },
+        {
+            "name": "Mage(Staff)",
+            "cost": "0",
+            "type": null,
+            "damage": "12",
+            "hit rate": "10",
+            "found": null,
+            "store": null,
+            "spell": "FIR2",
+            "equiped by": "BM, Ni, BW"
+        },
+        {
+            "name": "Masmune",
+            "cost": "0",
+            "type": "sword",
+            "damage": "56",
+            "hit rate": "50",
+            "found": null,
+            "store": null,
+            "spell": null,
+            "equiped by": "All classes"
+        },
+        {
+            "name": "Power(Staff)",
+            "cost": "0",
+            "type": null,
+            "damage": "12",
+            "hit rate": "0",
+            "found": null,
+            "store": null,
+            "spell": null,
+            "equiped by": "Fi, BB, WM, BM, Kn, Ni, Ma, WW, BW"
+        },
+        {
+            "name": "Rapier",
+            "cost": "10",
+            "type": null,
+            "damage": "9",
+            "hit rate": "5",
+            "found": null,
+            "store": null,
+            "spell": null,
+            "equiped by": "Fi, Th, RM, Kn, Ni, RW"
+        },
+        {
+            "name": "Rune(Sword)",
+            "cost": "0",
+            "type": null,
+            "damage": "18",
+            "hit rate": "15",
+            "found": null,
+            "store": null,
+            "spell": null,
+            "equiped by": "Fi, Th, RM, Kn, Ni, RW"
+        },
+        {
+            "name": "Sabre",
+            "cost": "450",
+            "type": null,
+            "damage": "13",
+            "hit rate": "5",
+            "found": null,
+            "store": null,
+            "spell": null,
+            "equiped by": "Fi, Th, RM, Kn, Ni, RW"
+        },
+        {
+            "name": "Scimtar",
+            "cost": "200",
+            "type": null,
+            "damage": "10",
+            "hit rate": "10",
+            "found": null,
+            "store": null,
+            "spell": null,
+            "equiped by": "Fi, Th, RM, Kn, Ni, RW"
+        },
+        {
+            "name": "Short(Sword)",
+            "cost": "550",
+            "type": null,
+            "damage": "15",
+            "hit rate": "10",
+            "found": null,
+            "store": null,
+            "spell": null,
+            "equiped by": "Fi, RM, Kn, Ni, RW"
+        },
+        {
+            "name": "Silver(Axe)",
+            "cost": "4,5",
+            "type": null,
+            "damage": "25",
+            "hit rate": "10",
+            "found": null,
+            "store": null,
+            "spell": null,
+            "equiped by": "Fi, Kn, Ni"
+        },
+        {
+            "name": "Silver(Dagger)",
+            "cost": "800",
+            "type": null,
+            "damage": "10",
+            "hit rate": "15",
+            "found": null,
+            "store": null,
+            "spell": null,
+            "equiped by": "Fi, Th, RM, BM, Kn, Ni, RW, BW"
+        },
+        {
+            "name": "Silver(Hammer)",
+            "cost": "2,5",
+            "type": null,
+            "damage": "12",
+            "hit rate": "5",
+            "found": null,
+            "store": null,
+            "spell": null,
+            "equiped by": "Fi, WM, Kn, Ni, WW"
+        },
+        {
+            "name": "Silver(Sword)",
+            "cost": "4",
+            "type": null,
+            "damage": "23",
+            "hit rate": "15",
+            "found": null,
+            "store": null,
+            "spell": null,
+            "equiped by": "Fi, RM, Kn, Ni, RW"
+        },
+        {
+            "name": "Small(Dagger)",
+            "cost": "5",
+            "type": null,
+            "damage": "5",
+            "hit rate": "10",
+            "found": null,
+            "store": null,
+            "spell": null,
+            "equiped by": "Fi, Th, RM, BM, Kn, Ni, RW, BW"
+        },
+        {
+            "name": "Sun(Sword)",
+            "cost": "0",
+            "type": null,
+            "damage": "32",
+            "hit rate": "30",
+            "found": null,
+            "store": null,
+            "spell": null,
+            "equiped by": "Fi, RM, Kn, Ni, RW"
+        },
+        {
+            "name": "Thor(Hammer)",
+            "cost": "0",
+            "type": null,
+            "damage": "18",
+            "hit rate": "15",
+            "found": null,
+            "store": null,
+            "spell": "LIT2",
+            "equiped by": "Kn, Ni, WW"
+        },
+        {
+            "name": "Vorpal",
+            "cost": "0",
+            "type": null,
+            "damage": "24",
+            "hit rate": "25",
+            "found": null,
+            "store": null,
+            "spell": null,
+            "equiped by": "Kn, Ni, RW"
+        },
+        {
+            "name": "Were(Sword)",
+            "cost": "0",
+            "type": null,
+            "damage": "18",
+            "hit rate": "15",
+            "found": null,
+            "store": null,
+            "spell": null,
+            "equiped by": "Fi, RM, Kn, Ni, RW"
+        },
+        {
+            "name": "Wizard(Staff)",
+            "cost": "0",
+            "type": null,
+            "damage": "15",
+            "hit rate": "15",
+            "found": null,
+            "store": null,
+            "spell": "CONF",
+            "equiped by": "BW"
+        },
+        {
+            "name": "Wooden(Nunchuck)",
+            "cost": "10",
+            "type": null,
+            "damage": "12",
+            "hit rate": "0",
+            "found": null,
+            "store": null,
+            "spell": null,
+            "equiped by": "BB, Ni, Ma"
+        },
+        {
+            "name": "Wooden(Staff)",
+            "cost": "5",
+            "type": null,
+            "damage": "6",
+            "hit rate": "0",
+            "found": null,
+            "store": null,
+            "spell": null,
+            "equiped by": "Fi, BB, RM, WM, BM, Kn, Ni, Ma, RW, WW, BW"
+        },
+        {
+            "name": "Xcalber",
+            "cost": "0",
+            "type": null,
+            "damage": "45",
+            "hit rate": "35",
+            "found": null,
+            "store": null,
+            "spell": null,
+            "equiped by": "Kn"
+        }
+    ]
+}

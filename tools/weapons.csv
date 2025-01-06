@@ -1,0 +1,27 @@
+Iron (Nunchuck);16;0;200;;BB, Ni, Ma
+Iron (Staff);14;0;200;;Fi, BB, Kn, Ni, Ma
+Katana;33;35;0;;Ni
+Large (Dagger);7;10;175;;Fi, Th, RM, BM, Kn, Ni, RW, BW
+Light (Axe);28;15;0;HRM2;Fi, Kn, Ni
+Long (Sword);20;10;1,5;;Fi, RM, Kn, Ni, RW
+Mage (Staff);12;10;0;FIR2;BM, Ni, BW
+Masmune;56;50;0;;All classes
+Power (Staff);12;0;0;;Fi, BB, WM, BM, Kn, Ni, Ma, WW, BW
+Rapier;9;5;10;;Fi, Th, RM, Kn, Ni, RW
+Rune (Sword);18;15;0;;Fi, Th, RM, Kn, Ni, RW
+Sabre;13;5;450;;Fi, Th, RM, Kn, Ni, RW
+Scimtar;10;10;200;;Fi, Th, RM, Kn, Ni, RW
+Short (Sword);15;10;550;;Fi, RM, Kn, Ni, RW
+Silver (Axe);25;10;4,5;;Fi, Kn, Ni
+Silver (Dagger);10;15;800;;Fi, Th, RM, BM, Kn, Ni, RW, BW
+Silver (Hammer);12;5;2,5;;Fi, WM, Kn, Ni, WW
+Silver (Sword);23;15;4;;Fi, RM, Kn, Ni, RW
+Small (Dagger);5;10;5;;Fi, Th, RM, BM, Kn, Ni, RW, BW
+Sun (Sword);32;30;0;;Fi, RM, Kn, Ni, RW
+Thor (Hammer);18;15;0;LIT2;Kn, Ni, WW
+Vorpal;24;25;0;;Kn, Ni, RW
+Were (Sword);18;15;0;;Fi, RM, Kn, Ni, RW
+Wizard (Staff);15;15;0;CONF;BW
+Wooden (Nunchuck);12;0;10;;BB, Ni, Ma
+Wooden (Staff);6;0;5;;Fi, BB, RM, WM, BM, Kn, Ni, Ma, RW, WW, BW
+Xcalber;45;35;0;;Kn

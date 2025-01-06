@@ -1,0 +1,60 @@
+html {
+    background-color: #000;
+    color: #fff;
+}
+
+body {}
+
+thead {
+    font-weight: bold;
+    border-bottom: #fff 2px solid;
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: left;
+}
+
+table {
+    text-transform: capitalize;
+    width: 100%;
+    border: #fff 3px solid;
+    border-radius: 5px;
+    background-color: #002a88;
+}
+
+input {
+    background-image: url('/css/searchicon.png');
+    /* Add a search icon to input */
+    background-position: 10px 12px;
+    /* Position the search icon */
+    background-repeat: no-repeat;
+    /* Do not repeat the icon image */
+    font-size: 16px;
+    /* Increase font-size */
+    padding: 12px 20px 12px 40px;
+    /* Add some padding */
+    border: 1px solid #ddd;
+    /* Add a grey border */
+    margin-bottom: 12px;
+    /* Add some space below the input */
+}
+
+.main {
+    overflow-x: auto;
+}
+
+td[aria-sort="desc"] span::after {
+    content: "▼";
+    color: currentcolor;
+    font-size: 100%;
+    top: 0;
+}
+
+td[aria-sort="asc"] span::after {
+    content: "▲";
+    color: currentcolor;
+    font-size: 100%;
+    top: 0;
+}
