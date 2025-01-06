@@ -4,8 +4,6 @@
         "cost",
         "damage",
         "hit rate",
-        "found",
-        "store",
         "spell"
     ],
     "rows": [
