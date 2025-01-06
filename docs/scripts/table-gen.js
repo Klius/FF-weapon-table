@@ -5,7 +5,7 @@ get_dataset(db);
 
 
 async function get_dataset(dataset_name) {
-    url = "/docs/db/" + dataset_name + ".json"
+    url = window.location.href + "/db/" + dataset_name + ".json"
     const response = await fetch(url);
     const data = await response.json();
     init_table(data)
