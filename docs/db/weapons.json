@@ -1,10 +1,10 @@
 {
     "fields": [
         "name",
-        "cost",
         "damage",
         "hit rate",
-        "spell"
+        "spell",
+        "cost"
     ],
     "rows": [
         {
